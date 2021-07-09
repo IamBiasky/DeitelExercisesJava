@@ -1,4 +1,4 @@
-package ChapterThree;
+package ChapterTwo;
 
 public class PairOfAdjacentNumbers {
 
