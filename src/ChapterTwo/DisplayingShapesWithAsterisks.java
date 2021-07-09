@@ -8,7 +8,7 @@ public class DisplayingShapesWithAsterisks {
         System.out.println("*\t\t*\t  *\t\t*\t   ***\t\t*\t*");
         System.out.println("*\t\t*\t *\t\t *\t  *****\t   *\t  *");
         System.out.println("*\t\t*\t *\t\t *\t\t*\t *\t\t    *");
-        System.out.println("*\t\t*\t *\t\t *\t\t*   *\t\t\t *");
+        System.out.println("*\t\t*\t *\t\t *\t\t*  *\t\t\t  *");
         System.out.println("*\t\t*\t *\t\t *\t\t*\t *\t\t\t*");
         System.out.println("*\t\t*\t *\t\t *\t\t*\t   *\t  *");
         System.out.println("*\t\t*\t  *\t\t*\t    *\t\t*\t*");
