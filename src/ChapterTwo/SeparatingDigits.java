@@ -10,20 +10,22 @@ public class SeparatingDigits {
 
         int number1, number2, number3, number4, number5;
 
-        System.out.println("Enter first number: ");
+        System.out.println("Enter a number: ");
         number1 = input.nextInt();
 
-        System.out.println("Enter second number: ");
-        number2 = input.nextInt();
+        if (9999 < number1 && number1 < 100000)
 
-        System.out.println("Enter third number: ");
-        number3 = input.nextInt();
+            number5 = number1 % 10;
+            number1 = number1/10;
 
-        System.out.println("Enter fourth number: ");
-        number4 = input.nextInt();
+            number4 = number1 % 10;
+            number1 = number1/10;
 
-        System.out.println("Enter fifth number: ");
-        number5 = input.nextInt();
+            number3 = number1 % 10;
+            number1 = number1/10;
+
+            number2 = number1 % 10;
+            number1 = number1/10;
 
         System.out.printf("%d\t%d\t%d\t%d\t%d", number1, number2, number3, number4, number5);
     }
