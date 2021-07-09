@@ -16,7 +16,7 @@ public class Multiples {
         System.out.println("Enter second number: ");
         number2 = input.nextInt();
 
-        if (number1 >= number2 && number1 % number2 == 0)
+        if (number1 % number2 == 0)
             System.out.printf("%d %s %d %n", number1,"is a multiple of", number2);
 
         else

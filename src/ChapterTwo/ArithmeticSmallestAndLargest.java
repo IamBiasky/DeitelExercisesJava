@@ -8,7 +8,7 @@ public class ArithmeticSmallestAndLargest {
 
         Scanner input = new Scanner(System.in);
 
-        int number1, number2, number3, sum, product, average, smallest, largest;
+        int number1, number2, number3, sum, product, average;
 
         System.out.print("Enter first integer: ");
         number1 = input.nextInt();
@@ -45,8 +45,6 @@ public class ArithmeticSmallestAndLargest {
 
         if (number3 < number2 && number3 < number1)
             System.out.printf("%s %d %s %n", "The number", number3, "is smaller");
-
-
 
     }
 }
