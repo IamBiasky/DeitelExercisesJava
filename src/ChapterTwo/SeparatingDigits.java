@@ -27,6 +27,6 @@ public class SeparatingDigits {
             number2 = number1 % 10;
             number1 = number1/10;
 
-        System.out.printf("%d\t%d\t%d\t%d\t%d", number1, number2, number3, number4, number5);
+//        System.out.printf("%d\t%d\t%d\t%d\t%d", number1, number2, number3, number4, number5);
     }
 }
